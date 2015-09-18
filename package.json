@@ -1,0 +1,11 @@
+{
+  "name": "163MusicSpider",
+  "version": "1.0.0",
+  "description": "spider for 163Music that comments more than thousand",
+  "devDependencies": {
+    "request": "*",
+    "xml-writer": "*",
+    "cheerio": "*",
+    "moment": "*"
+  }
+}
