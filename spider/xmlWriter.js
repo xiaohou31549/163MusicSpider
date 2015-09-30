@@ -16,6 +16,12 @@ function startPlayList(){
   xmlFile = fs.createWriteStream(path);
   writer.startDocument();
   writer.startElement('List').writeAttribute('ListName', config.config.playlistName);
+
+  //add for continue
+  //var path = '../Product/playlist_20150923162516.kgl';
+  //xmlFile = fs.createWriteStream(path);
+  //writer.startDocument();
+
 }
 
 function addItem(author, name){
